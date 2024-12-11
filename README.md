@@ -11,8 +11,13 @@ parameterization
 
 # Loguru
 Third party logging library 
+
 debug
+
 info 
+
 warning
+
 error
+
 critical
