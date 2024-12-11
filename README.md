@@ -5,3 +5,5 @@
 poetry init -n
 
 poetry add xxx
+
+# Pydantic 
