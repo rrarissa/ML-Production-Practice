@@ -21,3 +21,5 @@ warning
 error
 
 critical
+
+# Code Architecture 
