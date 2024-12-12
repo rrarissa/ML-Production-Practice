@@ -26,3 +26,4 @@ critical
 
 # flake8 
 Check the style and quality of python code
+# wemake-services
