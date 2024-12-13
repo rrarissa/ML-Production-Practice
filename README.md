@@ -8,8 +8,7 @@ Our project uses poetry to specify and manage dependencies.  In Poetry, adding, 
 parameterization
 
 # Loguru
-Third party logging library 
-
+Loguru is the most popular third-party logging framework for Python. It includes 
 debug
 
 info 
@@ -18,7 +17,7 @@ warning
 
 error
 
-critical
+critical. We won't use print function because 
 
 # Code Architecture 
 
