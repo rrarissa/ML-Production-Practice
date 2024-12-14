@@ -8,17 +8,8 @@ Our project uses poetry to specify and manage dependencies.  In Poetry, adding, 
 parameterization
 
 # Loguru
-Loguru is the most popular third-party logging framework for Python. It includes 
-debug
-
-info 
-
-warning
-
-error
-
-critical. We won't use print function because 
-
+Loguru is a third-party logging library for Python that simplifies logging.
+It has functions of debug, info, warning, error and critical. 
 # Code Architecture 
 
 # flake8 
