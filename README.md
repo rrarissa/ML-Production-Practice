@@ -38,4 +38,8 @@ It has functions of debug, info, warning, error and critical.
 # Flake8 
 Flake8 is a Python linting tool that checks code for compliance with style and quality standards
 
+# Makefile
+
+
+
 # wemake-services
