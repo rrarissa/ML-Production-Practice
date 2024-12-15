@@ -39,7 +39,7 @@ It has functions of debug, info, warning, error and critical.
 Flake8 is a Python linting tool that checks code for compliance with style and quality standards
 
 # Makefile
-
+A Makefile is a special file used by the make build automation tool to define a set of tasks that can be executed to automate repetitive processes such as compiling code, building executables, or managing dependencie.
 
 
 # wemake-services
