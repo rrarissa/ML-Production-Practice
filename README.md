@@ -35,6 +35,7 @@ Loguru is a third-party logging library for Python that simplifies logging.
 It has functions of debug, info, warning, error and critical. 
 
 
-# flake8 
-Check the style and quality of python code
+# Flake8 
+Flake8 is a Python linting tool that checks code for compliance with style and quality standards
+
 # wemake-services
