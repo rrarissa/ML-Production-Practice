@@ -2,7 +2,7 @@
 name = "ml"
 version = "0.1.0"
 description = ""
-authors = ["rcao70 <rcao70@gatech.edu>"]
+authors = ["rcao074@uottawa.ca"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
