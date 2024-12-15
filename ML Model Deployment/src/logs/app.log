@@ -1,0 +1,4 @@
+2024-12-14 20:08:52.623 | INFO     | model.model_service:load_model:15 - checking the existence of model config file at model/models/rf_v1
+2024-12-14 20:08:52.624 | INFO     | model.model_service:load_model:22 - model rf_v1 exists! -> loading model configuration file
+2024-12-14 20:08:52.651 | INFO     | model.model_service:predict:26 - making prediction!
+2024-12-14 20:08:52.675 | INFO     | __main__:main:9 - prediction = [1997.12380952]
