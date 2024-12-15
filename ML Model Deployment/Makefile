@@ -3,7 +3,7 @@
 run: install
 	cd src; poetry run python3 runner.py
 
-install:pyproject.toml
+install:
 	poetry install 
 
 # remove pycache files and keep project clean
