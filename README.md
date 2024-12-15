@@ -22,24 +22,24 @@ The purpose of the project is to transform a ML predictive project from jupytern
     └── runner.py             # Main entry point for running the application
 ```
 
-
-# Poetry 
+# Library  
+## Poetry 
 Our project uses poetry to specify and manage dependencies.  In Poetry, adding, removing, or updating dependencies is streamlined with simple commands (poetry add, poetry remove, etc.), and the pyproject.toml file is updated automatically. For a complex project, poetry can ensure identical environments across different systems.
 
 
-# Pydantic 
+## Pydantic 
 parameterization, instead of hard coding the model and path, we use configuration file 
 
-# Loguru
+## Loguru
 Loguru is a third-party logging library for Python that simplifies logging.
 It has functions of debug, info, warning, error and critical. 
 
-
-# Flake8 
+## Flake8 
 Flake8 is a Python linting tool that checks code for compliance with style and quality standards
-
-# Makefile
+## Makefile
 A Makefile is a special file used by the make build automation tool to define a set of tasks that can be executed to automate repetitive processes such as compiling code, building executables, or managing dependencie.
+
+# GitHub Actions CI/CD
 
 
 # wemake-services
