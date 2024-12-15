@@ -24,9 +24,16 @@ jobs:
           python-version: "3.10.7"
 
       - name: Install poetry
-        run: |
-          curl -sSL https://install.python-poetry.org | python3 -
-          export PATH=$HOME/.local/bin:$PATH
-
+        uses: snok/install-poetry@v1
+        with:
+          virtualenvs-in-projects: true
+          
+      - name: Load cached venv
+        uses: actions/cache@v4
+        id: cached-dependencies
+        with:
+          path: .venv
+        
       - name: Install dependency using poetry
+        if: steps.cached-dependencies.outputs.cache-hit != 'true'
         run: poetry run make install
