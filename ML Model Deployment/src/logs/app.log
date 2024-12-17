@@ -2,3 +2,45 @@
 2024-12-14 20:08:52.624 | INFO     | model.model_service:load_model:22 - model rf_v1 exists! -> loading model configuration file
 2024-12-14 20:08:52.651 | INFO     | model.model_service:predict:26 - making prediction!
 2024-12-14 20:08:52.675 | INFO     | __main__:main:9 - prediction = [1997.12380952]
+2024-12-14 23:47:15.504 | INFO     | __main__:main:7 - train model
+2024-12-14 23:47:15.505 | INFO     | model.model_builder:train_model:13 - building the model atmodel/models/rf_v2
+2024-12-14 23:47:15.505 | INFO     | model.pipelines.model:build_model:10 - starting up model building pipeline
+2024-12-14 23:47:15.505 | INFO     | model.pipelines.preparation:prepare_data:7 - starting up preprocessing pipeline
+2024-12-14 23:47:15.505 | INFO     | model.pipelines.collection:load_data:7 - loading csv file at path rent_apartments.csv
+2024-12-14 23:47:15.512 | INFO     | model.pipelines.preparation:encode_cat_cols:19 - encode categorical columns
+2024-12-14 23:47:15.517 | INFO     | model.pipelines.preparation:parse_garden_col:30 - parsing garden column
+2024-12-14 23:47:16.035 | INFO     | model.pipelines.model:get_X_y:38 - defining X and Y variables. 
+X vars:        area  construction_year  ...  garage_yes storage_yes
+0     167.0               1870  ...       False       False
+1     150.0               1890  ...       False       False
+2     150.0               1890  ...       False       False
+3      90.0               1923  ...       False       False
+4     104.0               1923  ...       False       False
+...     ...                ...  ...         ...         ...
+1723   75.0               1990  ...       False       False
+1724   75.0               1990  ...       False       False
+1725   74.0               1986  ...       False       False
+1726  118.0               1920  ...       False        True
+1727  110.0               2019  ...       False        True
+
+[1728 rows x 9 columns]
+y var: 0       4500
+1       3450
+2       3450
+3       2000
+4       3250
+        ... 
+1723    1450
+1724    1500
+1725    1400
+1726    2650
+1727    2600
+Name: rent, Length: 1728, dtype: int64
+2024-12-14 23:47:16.036 | INFO     | model.pipelines.model:split_train_test:43 - splitting data into train and test sets
+2024-12-14 23:47:16.037 | INFO     | model.pipelines.model:train_model:50 - training a model with hyperparameters
+2024-12-14 23:47:42.735 | INFO     | model.pipelines.model:evaluation_model:66 - evaluating model performance. SCORE=0.7736503801291197
+2024-12-14 23:47:42.751 | INFO     | model.pipelines.model:save_model:72 - saving a model to a directory: model/models/rf_v2
+2024-12-14 23:52:23.285 | INFO     | model.model_inference:load_model:20 - checking the existance of model config file at model/models/rf_v2
+2024-12-14 23:52:23.287 | INFO     | model.model_inference:load_model:32 - model rf_v2 exists! -> loading model configuration file
+2024-12-14 23:52:23.298 | INFO     | model.model_inference:predict:42 - making prediction!
+2024-12-14 23:52:23.311 | INFO     | __main__:main:10 - prediction = [2215.359757628591]

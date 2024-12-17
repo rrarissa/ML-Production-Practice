@@ -6,13 +6,14 @@ authors = ["rcao074@uottawa.ca"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "3.10.7"
+python = "^3.10"
 scikit-learn = "^1.3.1"
 pandas = "^2.1.1"
 pydantic-settings = "^2.0.3"
 pydantic = "^2.10.3"
 loguru = "^0.7.3"
 flake8 = "^7.1.1"
+flask = "^3.1.0"
 
 
 [build-system]
