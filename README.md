@@ -40,5 +40,7 @@ Flake8 is a Python linting tool that checks code for compliance with style and q
 A Makefile is a special file used by the make build automation tool to define a set of tasks that can be executed to automate repetitive processes such as compiling code, building executables, or managing dependencie.
 
 # Microservice
+"Microservice ML" is the idea of deploying machine learning components as individual microservices. Each ML model or pipeline can be treated as a service, enabling better scalability, modularity, and maintenance.
+
 
 # Flask API
